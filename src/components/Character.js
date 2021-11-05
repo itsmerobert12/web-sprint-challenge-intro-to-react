@@ -5,12 +5,12 @@ import styled from 'styled-components';
 export default function Character(props) {
     
     const Container = styled.div` 
-        width: 100%;
+        width: 75%;
         display: flex;
         justify-content: space-between;
         margin: .5% 5% 1% 1%;
         padding: 10px;
-        background-color: rgba(255,222,173,.3);
+        background-color: rgba(247, 179, 39, 0.57);
         color: #162cf5;
         
     

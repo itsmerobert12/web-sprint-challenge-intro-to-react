@@ -16,7 +16,7 @@ export default function Details(props) {
             .catch(err => {
                 console.error(err);
             });
-    }, []);
+    }, );
 
     const Container = styled.div` 
         width: 70%;
@@ -24,8 +24,8 @@ export default function Details(props) {
         flex-direction: column;
         justify-content: space-between;
         margin: 10% 10% 10% 10%;
-        padding: 8px;
-        background-color: rgba(255,222,173,.3);
+        padding: 5px;
+        background-color: rgba(247, 179, 39, 0.57);
         color: #20ff1c;
         
         span{
